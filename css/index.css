@@ -171,16 +171,22 @@ img {
 header {
   display: flex;
   align-items: center;
+  width: 100%;
   border-bottom: 2px dashed #C0C0C0;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 header a {
   text-decoration: none;
   font-size: 1.6rem;
   color: #000000;
   font-family: Roboto, sans-serif;
+  align-content: flex-end;
+  margin: 15px;
 }
 header h1 {
-  margin: 0 20px;
+  margin-left: 120px;
+  margin-right: 320px;
 }
 .footer {
   width: 100%;
